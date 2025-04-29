@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+/* التكليف الاول */
+/* h1 {
+    width: 150px;
+    background-color: #ff8e00;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff8e00;
+    transform: skew(10deg, 10deg);
+    z-index: -1;
+}
+
+h1::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff8e00;
+    transform: skew(-10deg, -10deg);
+    z-index: -1;
+} */
+
+
+
+
+
+/* التلكيف الثانى */
+/* h1 {
+    width: 200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ca8686;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ca8686;
+    transform: translateX(-18px) skewX(20deg);
+    z-index: -1;
+}
+
+h1::before {
+    content: "";
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    transform: translateX(0px) skewX(20deg);
+} */
+
+
+
+
+
+
+/* التكليف الثالث */
+/* .class {
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    /*
+        3=> scale x
+        0.2679=> skew y = 15deg
+        0=> skew x
+        3=> scale y
+        20=> translate x
+        100=> translate y
+     
+
+} *\
+
+
+
+
+/* التكليف الرابع */
+/* div {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #4b8aa8;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50px, -50px);
+    border-bottom: 5px solid black;
+}
+
+div::after {
+    content: "";
+    width: 208px;
+    height: 208px;
+    background-color: black;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    position: absolute;
+    transform-origin: left top;
+    transform: rotate(-45deg);
+}
+
+div::before {
+    content: "Elzero";
+    position: absolute;
+    color: white;
+    left: 10px;
+    bottom: 10px;
+} */
+
+
+
+
+
+
+/* التكليف الخامس */
+/* div {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+
+div:hover {
+    transform: rotateY(-180deg);
+}
+
+div::before {
+    content: "Front";
+    background-color: crimson;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    backface-visibility: hidden;
+}
+
+div::after {
+    content: "Back";
+    background-color: rgb(174, 174, 250);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+} */
+
+
+
+
+
+
+
+
+
+/* التكليف السادس */
+div {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+div:hover {
+    transform: rotateX(-180deg);
+}
+
+div::before {
+    content: "Front";
+    background-color: crimson;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    backface-visibility: hidden;
+}
+
+div::after {
+    content: "Back";
+    background-color: rgb(174, 174, 250);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+}
