@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+/* التكليف الاول */
+
+/* div {
+    font-size: 20px;
+    color: white;
+    background-color: brown;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media print {
+    div {
+        font-size: 40px;
+    }
+} */
+
+
+
+
+
+/* التكليف الثانى */
+
+/* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+} */
+
+/* في الشاشات الصغيرة والجوالات */
+/* .parent div {
+    background-color: #eee;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+/* في الشاشات الكبيرة */
+/* @media (min-width:1200px) {
+    .parent div {
+        width: calc(25% - 10px);
+    }
+
+    .parent div h3 {
+        color: rgb(110, 113, 110);
+    }
+} */
+
+/* الشاشات المتوسطه */
+/* @media (min-width:992px) and (max-width:1199px) {
+    .parent div {
+        width: calc(50% - 10px);
+    }
+
+    .parent div h3 {
+        color: red;
+    }
+} */
+
+
+
+
+
+
+/* التكليف الثالث */
+
+.parent {
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* في الشاشات الصغيرة والجوالات */
+.parent div {
+    width: 100%;
+    background-color: #eee;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* في الشاشات المتوسطة */
+@media (min-width:992px) {
+    .parent div h3 {
+        color: red;
+    }
+
+    .parent div {
+        width: ((100% /3) - 10px);
+    }
+
+    .parent :first-child {
+        width: 100%;
+    }
+
+
+}
+
+
+/* في الشاشات الكبيرة */
+@media (min-width :1200px) {
+    .parent div h3 {
+        color: rgb(110, 113, 110)
+    }
+
+    .parent div {
+        width: calc(50% - 10px);
+    }
+
+    .parent :first-child,
+    .parent :last-child {
+        width: 100%;
+    }
+}

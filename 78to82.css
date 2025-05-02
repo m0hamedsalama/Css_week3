@@ -1,0 +1,78 @@
+/* التكليف الاول */
+
+/* div.main.red {
+    color: red;
+} */
+
+
+
+
+/* التكليف الثانى */
+
+/* .parent div+div {
+    color: red;
+} */
+
+
+/* التكليف الثالث */
+
+/* .parent> :only-child {
+    color: red;
+} */
+
+
+
+
+
+/* التكليف الرابع */
+
+/* body>div[title]:not(.no-need) {
+    color: red;
+} */
+
+
+
+
+
+
+/* التكليف الخامس */
+
+/* div:nth-of-type(2) div {
+    color: red;
+} */
+
+
+
+
+
+
+
+/* التكليف السادس */
+
+/* div:not(.no-need) :nth-last-of-type(2) {
+    color: red;
+} */
+
+
+
+
+
+
+/* التكليف السابع */
+
+/* div:first-child div:nth-last-child(2) {
+    color: red;
+} */
+
+
+
+
+
+
+
+
+/* التكليف الثامن */
+
+div :not(:first-child, :last-child, h3) {
+    color: red;
+}
